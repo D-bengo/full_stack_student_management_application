@@ -2,7 +2,7 @@
 - A simple full-stack web application that demonstrates CRUD (Create, Read, Update, Delete) operations using a Flask backend and a React frontend.
 
 ## Project Overview
-This project allows users to:
+- This project allows users to:
     - View all students
     - Add a new student
     - Edit existing student details
@@ -12,14 +12,14 @@ This project allows users to:
 - N/B: Data is stored in memory and does not persist after server restart.
 
 ## Tech Stack
-Backend:
-    Python
-    Flask
-    Flask-CORS
+- Backend:
+    - Python
+    - Flask
+    - Flask-CORS
 
-Frontend:
-    React (Create React App)
-    JavaScript (Fetch API)
+- Frontend:
+    - React (Create React App)
+    - JavaScript (Fetch API)
 
 ## Project Structure
 project-root/
@@ -35,32 +35,32 @@ project-root/
 ## Getting started
 1. Clone the repository
 2. Setup Backend Flask:
-    (Install on the folder backend)
-    cd backend
-    pip install flask flask-cors
-    python app.py
+    - (Install on the folder backend)
+    - cd backend
+    - pip install flask flask-cors
+    - python app.py
 
-    Backend will run on:
+    - Backend will run on:
 
-    http://localhost:5000
+    - http://localhost:5000
 3. Setup Frontend (React):
-    Open a new terminal:
+    - Open a new terminal:
 
-    cd frontend
-    npm install
-    npm start
+    - cd frontend
+    - npm install
+    - npm start
 
-    Frontend will run on:
+    - Frontend will run on:
 
-    http://localhost:3000
+    - http://localhost:3000
 
 ## API Endpoints
-Method	Endpoint	Description
-GET	    /students	Retrieve all students
-GET	    /student/	Retrieve one student
-POST	/student	Add new student
-PUT	    /student/	Update student
-DELETE	/student/	Delete student
+- Method	Endpoint	Description
+- GET	    /students	Retrieve all students
+- GET	    /student/	Retrieve one student
+- POST	/student	Add new student
+- PUT	    /student/	Update student
+- DELETE	/student/	Delete student
 
 ## How it works
 - The React frontend sends HTTP requests to the Flask backend.
