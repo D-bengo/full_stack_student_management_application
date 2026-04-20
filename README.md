@@ -22,15 +22,15 @@
     - JavaScript (Fetch API)
 
 ## Project Structure
-project-root/
- │ 
- ├── backend/ 
- │ └── app.py 
- │ 
- ├── frontend/ 
- │ ├── package.json 
- │ └── src/ 
- │ └── App.js
+- project-root/
+- │ 
+- ├── backend/ 
+- │ └── app.py 
+- │ 
+- ├── frontend/ 
+- │ ├── package.json 
+- │ └── src/ 
+- │ └── App.js
 
 ## Getting started
 1. Clone the repository
