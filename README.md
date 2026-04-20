@@ -55,12 +55,12 @@ project-root/
     - http://localhost:3000
 
 ## API Endpoints
-- Method	Endpoint	Description
-- GET	    /students	Retrieve all students
-- GET	    /student/	Retrieve one student
-- POST	/student	Add new student
-- PUT	    /student/	Update student
-- DELETE	/student/	Delete student
+- Method<br><br>	Endpoint <br><br>	Description
+- GET	 <br><br>   /students <br><br>	Retrieve all students
+- GET	<br><br>    /student/ <br><br>	Retrieve one student
+- POST	<br><br>    /student <br><br>	Add new student
+- PUT	 <br><br>   /student/ <br><br>	Update student
+- DELETE<br><br>	/student/ <br><br>	Delete student
 
 ## How it works
 - The React frontend sends HTTP requests to the Flask backend.
